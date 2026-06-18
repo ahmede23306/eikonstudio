@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import DivFormVR0 from "@/imports/DivFormVR0/index";
+import CustomGForm from "@customgform-lib/react-customgform";
 import Vector from "@/imports/Vector/index";
 import { Instagram, Linkedin, Mail } from "lucide-react";
 
@@ -173,7 +173,7 @@ export default function App() {
       {/* Main */}
       <main className="flex-1 flex items-start justify-center py-10 sm:py-14 px-4 sm:px-6">
         <div className="w-full max-w-[600px]">
-          <DivFormVR0 />
+          <CustomGForm formId="cmon4stok009iwnq9bvwfukor" />
         </div>
       </main>
 
